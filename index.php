@@ -43,7 +43,24 @@
        <div class="preta"as></div>
        <div class="branca"b></div>
    </div>  
-</div>
+   
+   <div class= "teclado">
+     <div class="oitavo" ot3>
+      
+     <div class="branca" c> </div>
+      <div class="preta" cs></div>
+      <div class="branca"d></div>
+      <div class="preta" ds></div>
+      <div class="branca"e></div>
+      <div class="branca"f></div>
+      <div class="preta" fs></div>
+      <div class="branca"g></div>
+      <div class="preta"gs></div>
+      <div class="branca" a></div>
+      <div class="preta"as></div>
+      <div class="branca"b></div>
+  </div> 
+  </div>
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
