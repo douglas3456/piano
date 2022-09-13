@@ -1,6 +1,8 @@
 *{
     box-sizing: border-box;
- }
+   
+
+}
 
 body{
     background-color:#555;
@@ -14,6 +16,7 @@ body{
 .oitavo{
     display:flex;
     position:relative;
+    
 }
 
 .branca{
@@ -21,6 +24,7 @@ body{
     width:50px;
     height:300px;
     border: 1px solid #000;
+         
 }
 
 .preta {
@@ -32,7 +36,7 @@ height: 160px;
 
 [cs]{
     left:35px;
-
+    
 }
 
 [ds]{
