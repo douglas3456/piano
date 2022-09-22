@@ -1,23 +1,24 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Piano</title>
-  </head>
-  <body>
-    
-  <div class= "teclado">
+</head>
+<header>Piano virtual</header>
+
+<body>
+<h1> Piano virtual</h1>
+<p>Toque nas teclas para tocar uma melodia e quem sabe descubre uma música secreta.</p>
+  
+<div class= "teclado">
      <div class="oitavo" ot1>
    
  
-     <audio id="c" controls src="./audios piano/do.mp3"></audio>
-     <div class="branca" id="c"> </div>
+     <audio  controls src="./audios piano/do.mp3"></audio>
+     <div id="audio" class="branca" id="c"> </div>
       <div class="preta" cs></div>
       <div class="branca"d></div>
       <div class="preta" ds></div>
