@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Piano</title>
 </head>
-<header>Piano virtual</header>
+<header>trabalho</header>
 
 <body>
 <h1> Piano virtual</h1>
@@ -17,34 +17,34 @@
      <div class="oitavo" ot1>
    
  
-     <audio  controls src="./audios piano/do.mp3"></audio>
-     <div id="audio" class="branca" id="c"> </div>
-      <div class="preta" cs></div>
-      <div class="branca"d></div>
-      <div class="preta" ds></div>
-      <div class="branca"e></div>
-      <div class="branca"f></div>
-      <div class="preta" fs></div>
-      <div class="branca"g></div>
-      <div class="preta"gs></div>
-      <div class="branca" a></div>
-      <div class="preta"as></div>
-      <div class="branca"b></div>
+    
+     <div class="branca" id="c" onclick="somSi();"> </div>
+      <div class="preta" cs  id="do"onclick="somDo();"></div>
+      <div class="branca"id="d"onclick="somLa();" ></div>
+      <div class="preta" ds id="re"onclick="somRe();"></div>
+      <div class="branca"id="e"onclick="somFa();"></div>
+      <div class="branca"id="f" onclick="somRe();"></div>
+      <div class="preta" fs id="mi" onclick="somMi();"></div>
+      <div class="branca" id="g" onclick="somSol();"></div>
+      <div class="preta" gs id="sol"onclick="somSol();"></div>
+      <div class="branca" id="a"onclick="somMi();"></div>
+      <div class="preta"as id="la" onclick="somLa();"></div>
+      <div class="branca"id="b"onclick="somDoagudo();"></div>
   </div> 
   <div class="oitavo" ot2>
       
-      <div class="branca" f> </div>
-       <div class="preta" cs></div>
-       <div class="branca"d></div>
-       <div class="preta" ds></div>
-       <div class="branca"e></div>
-       <div class="branca"f></div>
-       <div class="preta" fs></div>
-       <div class="branca"g></div>
-       <div class="preta"gs></div>
-       <div class="branca" a></div>
-       <div class="preta"as></div>
-       <div class="branca"b></div>
+      <div class="branca" id="f" onclick="somMiagudo();"> </div>
+       <div class="preta" cs id="da" onclick="somDoagudo();"></div>
+       <div class="branca" id="d" onclick="somDo();"></div>
+       <div class="preta" ds id="de"onclick="somReagudo();"></div>
+       <div class="branca"id="e"onclick="somFaagudo();"></div>
+       <div class="branca"id="f"onclick="somSolagudo();"></div>
+       <div class="preta" fs id="di"onclick="somMiagudo();"></div>
+       <div class="branca"id="g"onclick="somLaagudo();"></div>
+       <div class="preta"gs  id="do"onclick="somSolagudo();"></div>
+       <div class="branca" id="a" onclick="somSiagudo();"></div>
+       <div class="preta"as id="du"onclick="somLaagudo();"></div>
+       <div class="branca"id="b" onclick="somReagudo();"></div>
    </div>  
    </div>
  
