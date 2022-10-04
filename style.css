@@ -19,7 +19,7 @@ body{
     
 }
 
-.branca{
+.branca-key{
     background-color:#fff;
     width:50px;
     height:300px;
@@ -27,7 +27,7 @@ body{
          
 }
 
-.preta {
+.preta-key {
 position:absolute;
 background-color: #000;
 width: 30px;

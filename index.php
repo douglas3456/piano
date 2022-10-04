@@ -18,33 +18,33 @@
    
  
     
-     <div class="branca" id="c" onclick="somSi();"> </div>
-      <div class="preta" cs  id="do"onclick="somDo();"></div>
-      <div class="branca"id="d"onclick="somLa();" ></div>
-      <div class="preta" ds id="re"onclick="somRe();"></div>
-      <div class="branca"id="e"onclick="somFa();"></div>
-      <div class="branca"id="f" onclick="somRe();"></div>
-      <div class="preta" fs id="mi" onclick="somMi();"></div>
-      <div class="branca" id="g" onclick="somSol();"></div>
-      <div class="preta" gs id="sol"onclick="somSol();"></div>
-      <div class="branca" id="a"onclick="somMi();"></div>
-      <div class="preta"as id="la" onclick="somLa();"></div>
-      <div class="branca"id="b"onclick="somDoagudo();"></div>
+     <div class="branca-key"  id="c" onclick="somSi();"> </div>
+      <div class="preta-key" cs  id="do"onclick="somDo();"></div>
+      <div class="branca-key" id="d"onclick="somLa();" ></div>
+      <div class="preta-key" ds id="re"onclick="somRe();"></div>
+      <div class="branca-key"id="e"onclick="somFa();"></div>
+      <div class="branca-key" id="f" onclick="somRe();"></div>
+      <div class="preta-key" fs id="mi" onclick="somMi();"></div>
+      <div class="branca-key" id="g" onclick="somSol();"></div>
+      <div class="preta-key" gs id="sol"onclick="somSol();"></div>
+      <div class="branca-key" id="a"onclick="somMi();"></div>
+      <div class="preta-key"as id="la" onclick="somLa();"></div>
+      <div class="branca-key "id="b"onclick="somDoagudo();"></div>
   </div> 
   <div class="oitavo" ot2>
       
-      <div class="branca" id="f" onclick="somMiagudo();"> </div>
-       <div class="preta" cs id="da" onclick="somDoagudo();"></div>
-       <div class="branca" id="d" onclick="somDo();"></div>
-       <div class="preta" ds id="de"onclick="somReagudo();"></div>
-       <div class="branca"id="e"onclick="somFaagudo();"></div>
-       <div class="branca"id="f"onclick="somSolagudo();"></div>
-       <div class="preta" fs id="di"onclick="somMiagudo();"></div>
-       <div class="branca"id="g"onclick="somLaagudo();"></div>
-       <div class="preta"gs  id="do"onclick="somSolagudo();"></div>
-       <div class="branca" id="a" onclick="somSiagudo();"></div>
-       <div class="preta"as id="du"onclick="somLaagudo();"></div>
-       <div class="branca"id="b" onclick="somReagudo();"></div>
+      <div class="branca-key" id="f" onclick="somMiagudo();"> </div>
+       <div class="preta-key" cs id="da" onclick="somDoagudo();"></div>
+       <div class="branca-key" id="d" onclick="somDo();"></div>
+       <div class="preta-key"  ds id="de"onclick="somReagudo();"></div>
+       <div class="branca-key" id="e"onclick="somFaagudo();"></div>
+       <div class="branca-key" id="f"onclick="somSolagudo();"></div>
+       <div class="preta-key"  fs id="di"onclick="somMiagudo();"></div>
+       <div class="branca-key" id="g"onclick="somLaagudo();"></div>
+       <div class="preta-key"  gs  id="do"onclick="somSolagudo();"></div>
+       <div class="branca-key" id="a" onclick="somSiagudo();"></div>
+       <div class="preta-key"as id="du"onclick="somLaagudo();"></div>
+       <div class="branca-key "id="b" onclick="somReagudo();"></div>
    </div>  
    </div>
  
