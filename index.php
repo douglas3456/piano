@@ -17,8 +17,8 @@
      <div class="oitavo" ot1>
    
  
-     
-     <div class="branca-key"  id="c" onclick="somSi();"> </div>
+
+     <div class="branca-key"  id="C" onclick="somSi();"> </div>
       <div class="preta-key" cs  id="do"   onclick="somDo();"></div>
       <div class="branca-key" id="d"onclick="somLa();" ></div>
       <div class="preta-key" ds id="re"onclick="somRe();"></div>
@@ -52,7 +52,13 @@
    </div>  
    </div>
  
- 
+ <script>
+document.getElementById("C").addEventListener("keypress", myFunction);
+
+function myFunction() {
+  document.getElementById("C");
+}
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">

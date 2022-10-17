@@ -2,13 +2,17 @@
 <html>
 <body>
 
-<p>A function is triggered when the user is pressing a key in the input field.</p>
+<p>This example uses the HTML DOM to assign an "onkeypress" event to an input element.</p>
 
-<input type="text" onkeypress="myFunction()">
+<p>Press a key inside the text field to set a red background color.</p>
+
+<input type="text" id="demo">
 
 <script>
+document.getElementById("demo").onkeypress = function() {myFunction()};
+
 function myFunction() {
-  alert("You pressed a key inside the input field");
+  document.getElementById("demo").style.backgroundColor = "red";
 }
 </script>
 
