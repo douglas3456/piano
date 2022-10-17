@@ -17,9 +17,9 @@
      <div class="oitavo" ot1>
    
  
-    
+     
      <div class="branca-key"  id="c" onclick="somSi();"> </div>
-      <div class="preta-key" cs  id="do"onclick="somDo();"></div>
+      <div class="preta-key" cs  id="do"   onclick="somDo();"></div>
       <div class="branca-key" id="d"onclick="somLa();" ></div>
       <div class="preta-key" ds id="re"onclick="somRe();"></div>
       <div class="branca-key"id="e"onclick="somFa();"></div>
@@ -31,9 +31,13 @@
       <div class="preta-key"as id="la" onclick="somLa();"></div>
       <div class="branca-key "id="b"onclick="somDoagudo();"></div>
   </div> 
+  
+
+
+
   <div class="oitavo" ot2>
       
-      <div class="branca-key" id="f" onclick="somMiagudo();"> </div>
+      <div class="branca-key" id="f"  onclick="somMiagudo();"> </div>
        <div class="preta-key" cs id="da" onclick="somDoagudo();"></div>
        <div class="branca-key" id="d" onclick="somDo();"></div>
        <div class="preta-key"  ds id="de"onclick="somReagudo();"></div>
@@ -47,6 +51,7 @@
        <div class="branca-key "id="b" onclick="somReagudo();"></div>
    </div>  
    </div>
+ 
  
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
