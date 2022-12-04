@@ -11,54 +11,47 @@
 
 <body>
 <h1> Piano virtual</h1>
-<p>Toque nas teclas para tocar uma melodia e quem sabe descubre uma música secreta.</p>
-  
-<div class= "teclado">
+
+<p>botões do teclado</p>
+<h3> a  s  d  f  g  h  j  k l ç</h3>
+<h2>z  x  c  v  b  n  m</h2>  
+<div class= "teclado" >
      <div class="oitavo" ot1>
    
  
-
-     <div class="branca-key"  id="C" onclick="somSi();"> </div>
-      <div class="preta-key" cs  id="do"   onclick="somDo();"></div>
-      <div class="branca-key" id="d"onclick="somLa();" ></div>
-      <div class="preta-key" ds id="re"onclick="somRe();"></div>
-      <div class="branca-key"id="e"onclick="somFa();"></div>
-      <div class="branca-key" id="f" onclick="somRe();"></div>
-      <div class="preta-key" fs id="mi" onclick="somMi();"></div>
-      <div class="branca-key" id="g" onclick="somSol();"></div>
-      <div class="preta-key" gs id="sol"onclick="somSol();"></div>
-      <div class="branca-key" id="a"onclick="somMi();"></div>
-      <div class="preta-key"as id="la" onclick="somLa();"></div>
-      <div class="branca-key "id="b"onclick="somDoagudo();"></div>
+     
+     <div class="branca-key"   id="teste-Ca" onclick="somSi();"> </div>
+     <div class="preta-key" cs  id="teste-do"   onclick="somDo();"></div>
+      <div class="branca-key" id="teste-d" onclick="somLa();" ></div>
+      <div class="preta-key" ds id="teste-re"onclick="somRe1();"></div>
+      <div class="branca-key" id="teste-e" onclick="somFa();"></div>
+      <div class="branca-key" id="teste-f"  onclick="somDoagudo();"></div>
+      <div class="preta-key" fs id="teste-mi" onclick="somMi();"></div>
+      <div class="branca-key" id="teste-t" onclick="somSol();"></div>
+      <div class="preta-key" gs id="teste-sol" onclick="somLagudo();"></div>
+      <div class="branca-key"  id="teste-a" onclick="somRe();"></div>
+     <div class="preta-key" vu id="teste-b"  onclick="somSolagudo();"></div>
+     <div class="branca-key" id="teste-fa"  onclick="somSiagudo();"> </div>
+       
   </div> 
-  
-
-
-
   <div class="oitavo" ot2>
       
-      <div class="branca-key" id="f"  onclick="somMiagudo();"> </div>
-       <div class="preta-key" cs id="da" onclick="somDoagudo();"></div>
-       <div class="branca-key" id="d" onclick="somDo();"></div>
-       <div class="preta-key"  ds id="de"onclick="somReagudo();"></div>
-       <div class="branca-key" id="e"onclick="somFaagudo();"></div>
-       <div class="branca-key" id="f"onclick="somSolagudo();"></div>
-       <div class="preta-key"  fs id="di"onclick="somMiagudo();"></div>
-       <div class="branca-key" id="g"onclick="somLaagudo();"></div>
-       <div class="preta-key"  gs  id="do"onclick="somSolagudo();"></div>
-       <div class="branca-key" id="a" onclick="somSiagudo();"></div>
-       <div class="preta-key"as id="du"onclick="somLaagudo();"></div>
-       <div class="branca-key "id="b" onclick="somReagudo();"></div>
+      <div class="branca-key" id="teste-rf"  onclick="somFaagudo();"> </div>
+       <div class="preta-key" cs id="teste-du" onclick="somMiagudo();"></div>
+       <div class="branca-key" id="teste-dr" onclick="somDo2();"></div>
+       
+       <div class="preta-key"  ds id="teste-pi"onclick="somReagudo();"></div>
+       <div class="branca-key" id="teste-o"onclick="somFaagudo4();"></div>
+      
    </div>  
-   </div>
- 
- <script>
-document.getElementById("C").addEventListener("keypress", myFunction);
+      
+       
 
-function myFunction() {
-  document.getElementById("C");
-}
-</script>
+     
+   </div>
+   
+   
+
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">

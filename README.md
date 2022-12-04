@@ -1,2 +1,2 @@
 # piano
-trabalho feira tecnico
+trabalho feira técnico
